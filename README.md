@@ -8,19 +8,20 @@ Queries implemented
 
 1. Select:
 
-select * from table1;
+   select * from table1;
+
 2. Aggregate functions: sum, average, max and min
 
-select max(col1) from table1;
+   select max(col1) from table1;
 
 3. Distinct Clause
 
-select distinct(col1) from table_name;
+   select distinct(col1) from table_name;
 
 4 Where clause 
 
-select col1,col2 from table1,table2 where col1 = 10 AND col2 = 20;
+   select col1,col2 from table1,table2 where col1 = 10 AND col2 = 20;
 
 5 Join 
 
-a. select * from table1, table2 where table1.col1=table2.col2; b. select col1,col2 from table1,table2 where table1.col1=table2.col2;
+    a. select * from table1, table2 where table1.col1=table2.col2; b. select col1,col2 from table1,table2 where table1.col1=table2.col2;
